@@ -1,0 +1,79 @@
+# macOS system files
+.DS_Store
+.Trash/
+
+# Ignore Git LFS files (not directly committed)
+.gitattributes
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+.env/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Documents and media files
+*.docx
+*.pdf
+*.xlsx
+*.png
+*.jpg
+*.txt
+# Ignore macOS system files
+.DS_Store
+.Trash/
+
+# Ignore Python cache and virtual environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+.venv/
+.env/
+.spyder-py3/
+
+# Ignore hidden directories and files
+.*.history
+.*.backup
+.*.log
+.*.tmp
+*.swp
+*~
+
+# Ignore global files and directories
+**/.DS_Store
+**/.__*
+**/node_modules/
+**/env/
+**/venv/
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.*cache*/
+
+# Ignore unnecessary document and media files
+*.docx
+*.pdf
+*.xlsx
+*.png
+*.jpg
+*.txt
+
+# Ignore personal paths
+/Users/*
+/Documents/*
+/Downloads/*
+/Library/*
+/Music/*
+/Movies/*
+/Pictures/*
+
