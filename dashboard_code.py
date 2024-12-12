@@ -15,7 +15,9 @@ import socket
 
 # Load dataset
 file_path = 'updated_crime_data_with_rate.csv'
-geojson_path = 'london-boroughs_1179 (1).geojson'
+geojson_path = 'london-boroughs_1179.geojson'
+
+
 
 
 
